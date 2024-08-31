@@ -1,0 +1,63 @@
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: "Platypi", serif;
+    margin-bottom: 100px;
+  }
+  
+  /*isso pode nao funcionar(no caso,"padding" abaixo)*/
+  
+header {
+    border-bottom: solid 2px red;
+    padding: 20px;
+    margin: 15px;
+    font-size: 32px;
+    color: white;
+}
+
+.chamada {
+    background: rgb(43, 40, 40);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    }
+
+.chamada-texto {
+    margin-right: 3%;
+ }  
+
+    h1 {
+    font-size: 40px
+ }
+
+    p{
+    font-size: 25px;
+ }
+ 
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+ }
+ 
+.trailers {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+ }
+ 
+ .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+ }
+ 
+ .categoria-videos img:hover {
+    opacity: 1.0;
+    border: 4px solid red;
+ }
+ 
+ .trailers h2 {
+   color: white;
+ }
